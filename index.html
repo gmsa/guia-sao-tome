@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Guia São Tomé e Princípe">
+    <meta name="author" content="Gustavo Santos">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Guia São Tomé e Príncipe</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,19 +42,31 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <img class="navbar-brand" src="img/stsmall.gif">
+                <a class="navbar-brand topnav" href="#">Guia São Tomé e Príncipe</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#sobre">Sobre mim</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#tours">Tours</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#testemunhos">Testemunhos</a>
+                    </li>
+                    <li>
+                        <a href="#contactos">Contactos</a>
+                    </li>
+                    <li>
+                        <a href="#">+2399800161 (telefone ou whatsapp)</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/jenkis.renner?fref=ts" target="_blank">
+                            <img src="img/FB-f-Logo__blue_29.png">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -66,17 +77,15 @@
 
 
     <!-- Header -->
-    <a name="about"></a>
     <div class="intro-header">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>Guia em São Tomé e Príncipe</h1>
+                        <h3>Conheça a ilha e entre no espírito leve-leve</h3>
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+                        <!--<ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -86,20 +95,81 @@
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
-                        </ul>
+                        </ul>-->
                     </div>
                 </div>
             </div>
 
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.intro-header -->
 
     <!-- Page Content -->
+    <div id="carousel-sao-tome" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-sao-tome" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-sao-tome" data-slide-to="1"></li>
+            <li data-target="#carousel-sao-tome" data-slide-to="2"></li>
+            <li data-target="#carousel-sao-tome" data-slide-to="3"></li>
+            <li data-target="#carousel-sao-tome" data-slide-to="4"></li>
+            <li data-target="#carousel-sao-tome" data-slide-to="5"></li>
+        </ol>
 
-	<a  name="services"></a>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/carousel/1.jpg" alt="Boca do Inferno - São Tomé e Príncipe">
+                <div class="carousel-caption">
+                    Boca do Inferno
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/carousel/2.jpg" alt="Praia dos Tamarindo - São Tomé e Príncipe">
+                <div class="carousel-caption">
+                    Praia dos Tamarindos
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/carousel/3.jpg" alt="Lagoa Azul - São Tomé e Príncipe">
+                <div class="carousel-caption">
+                    Lagoa Azul
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/carousel/4.jpg" alt="Norte - São Tomé e Príncipe">
+                <div class="carousel-caption">
+                    Norte
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/carousel/5.jpg" alt="Cacau - São Tomé e Príncipe">
+                <div class="carousel-caption">
+                    Cacau
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/carousel/6.jpg" alt="Praia Inhame - São Tomé e Príncipe">
+                <div class="carousel-caption">
+                    Praia Inhame
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-sao-tome" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-sao-tome" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <a name="sobre"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -107,11 +177,16 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Jenkins Renner</h2>
+                    <p class="lead">
+                        Nascido na ilha de São Tomé, tenho mais de 10 anos de experiência como guia turístico.
+                        <br/><br/>
+                        Conhecedor da fauna e flora da ilha, irei fazer o possível por lhe proporcionar uma boa experiência de descoberta da maravilhosa ilha de São Tomé.
+                    </p>
+                    <img src="img/jenkis2.jpg" class="img-responsive">
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/jenkis.jpg" alt="Jenkis Renner">
                 </div>
             </div>
 
@@ -121,12 +196,23 @@
     </div>
     <!-- /.content-section-a -->
 
+    <a name="tours"></a>
     <div class="content-section-b">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-12 text-center">
+                    <h1 style="font-size:4em;">Tours</h1>
+                    <p class="lead">
+                        Além das viagens abaixo, podem ser feitas outras à medida do que desejar conhecer e descobrir.
+                        <br/>
+                        Todas as viagens são feitas em jipe 4x4.
+                        <br/>
+                        Posso também esclarecer ajudar com locais para almoçar ou jantar.
+                    </p>
+                </div>
+                <!--<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
@@ -134,7 +220,7 @@
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
+                </div>-->
             </div>
 
         </div>
@@ -147,15 +233,57 @@
 
         <div class="container">
 
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col-lg-6 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Norte</h2>
+                    <p class="lead">
+                        Roças Santa Catarina, Diogo Vaz, Fernão Dias, Agostinho Neto.
+                        <br/>
+                        Praias Lagoa Azul, Tamarindos
+                        <br/>
+                        Marco dos descobrimentos Anambo
+                        <br/><br/>
+                        Duração: 1 dia, inclui almoço
+                    </p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                <div class="col-lg-6 col-sm-6">
+                    <img class="img-responsive" src="img/norte.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col-lg-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Centro</h2>
+                    <p class="lead">
+                        Roças Bombain, Monte Café, Saudade
+                        <br/>
+                        Cascata S. Nicolau, Jardim botânico
+                        <br/><br/>
+                        Duração: 1 dia, inclui almoço
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <img class="img-responsive" src="img/centro.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col-lg-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Sul</h2>
+                    <p class="lead">
+                        Roça Água-Izé, Boca do Inferno, Praia piscina, Roça Angolares, Porto Alegre, Praia Inhame, Praia Jalé,
+                        <br/><br/>
+                        Duração: 1 dia, inclui almoço
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <img class="img-responsive" src="img/sul2.jpg" alt="Sul - São Tomé e Príncipe">
                 </div>
             </div>
 
@@ -165,8 +293,36 @@
     </div>
     <!-- /.content-section-a -->
 
-	<a  name="contact"></a>
-    <div class="banner">
+    <a name="testemunhos"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <h2 class="section-heading">Testemunhos</h2>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <p class="lead">
+                        O Jenkis levou-nos a conhecer a maravilhosa ilha de São Tomé e o seu acolhedor povo. Com ele provámos água de coco, vinho de palma, muitas das frutas locais, feijão à moda da terra, polvo e o típico calulu.
+                        <br/>
+                        Ainda nos deu indicação de restaurantes na cidade de São Tomé e levou-nos à fábrica do cacau.
+                        <br/>
+                        Só foi pena não termos mais dias de férias! Obrigado por tudo!
+                    </p>
+                    <i>Gustavo Santos</i>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/testemunhos1.jpg" alt="Testemunhos">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <a  name="contactos"></a>
+    <!--<div class="banner">
 
         <div class="container">
 
@@ -190,9 +346,9 @@
             </div>
 
         </div>
-        <!-- /.container -->
+        &lt;!&ndash; /.container &ndash;&gt;
 
-    </div>
+    </div>-->
     <!-- /.banner -->
 
     <!-- Footer -->
@@ -200,24 +356,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
+                    <h2 class="section-heading">Contactos</h2>
+                    <ul class="list-unstyled">
                         <li>
-                            <a href="#">Home</a>
+                            +2399800161 (telefone ou whatsapp)
+                            <br/><br/>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
+                            <a href="https://www.facebook.com/jenkis.renner?fref=ts" target="_blank">
+                                <img src="img/FB-f-Logo__blue_29.png">
+                            </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
